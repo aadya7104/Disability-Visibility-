@@ -1,0 +1,188 @@
+ * {   /* Reset the margin and padding for all the elements */
+   margin: 0px;
+   padding: 0px;
+}
+    body{/*
+      background-image:url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v904-nunny-032.jpg?w=1300&dpr=1&fit=default&crop=default&q=80&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=aee145aed5eae34838714abf0e264a3b');
+       background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100%;*/
+      background-color: rgb(222, 237, 248);
+         }
+#navbar {
+  list-style-type: none;
+  padding: 1.5em;
+  background-color: black;
+  overflow: hidden;
+}
+
+#navbar-item {
+  display: inline;
+  margin-left: 40px;
+ }
+#navbar-item1 {
+  align-content: left;
+  margin:0;
+  margin-right:15px;
+  padding:0px;
+ }
+#navbar-item a {    /* Style hyperlink text in nav bar */
+  color: white;
+  text-decoration: none;
+  padding: 1em;
+  font-size: 1.3em;
+  font-family:'Playfair Display SC', serif;
+  text-align: center;
+  margin-left:0px;
+ 
+}
+.nav{
+  text-align: center;
+}
+
+#navbar-item a:hover {
+  background-color: gray;
+}
+
+    h2{
+     font-family: 'Bebas Neue', cursive;
+      display: block;
+      text-align: left;
+      letter-spacing: 1.5px;
+      padding-top:35px;
+      padding-bottom:45px;
+      font-size:2.5em;
+       margin-left:100px;
+      margin-right:100px;
+    }
+    p{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.2em;
+      display: block;
+      margin-left:100px;
+      margin-right:100px;
+      text-align: left;
+      font-weight: 1000px;
+      padding:8px;
+      letter-spacing:1px;
+      margin-top:0.5em;
+    }
+    #list{
+      margin-left: 150px;
+      margin-right: 100px;
+        }
+        .types{
+          list-style-type: square;
+        font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.3em;
+      font-weight: 1000px;
+      letter-spacing:1px;
+      padding:1px;
+   
+      
+        }
+.your-centered-div {
+    margin: 50px;
+    margin-left: 300px;
+    }
+    iframe{
+      width:700px;
+      height:445px;
+    }
+@media screen and (max-width:450px) {
+   #navbar {
+  list-style-type: none;
+  padding: 1em;
+  background-color: black;
+  overflow: hidden;
+}
+
+#navbar-item {
+  display: inline;
+  margin-left:20px;
+ }
+
+#navbar-item a {    /* Style hyperlink text in nav bar */
+  color: white;
+  text-decoration: none;
+  padding: 0.2em;
+  font-size: 1em;
+  font-family:'Playfair Display SC', serif;
+  text-align: center;
+  margin-left:0px;
+ 
+}
+.nav{
+  text-align: center;
+}
+
+#navbar-item a:hover {
+  background-color: gray;
+}
+
+h2{
+      font-family: 'Bebas Neue', cursive;
+      display: block;
+      text-align: left;
+      margin-left: 50px;
+      letter-spacing: 1.8px;
+      padding-top:35px;
+      padding-bottom:45px;
+      font-size:2.5em;
+      
+    }
+ p{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.2em;
+      display: block;
+      margin-left:40px;
+      margin-right:40px;
+      text-align: left;
+      font-weight: 1000px;
+      padding:2px;
+      letter-spacing:1px;
+      margin-top:0.5em;
+    }
+    #list{
+      margin-left: 50px;
+      margin-right: 50px;
+        }
+        .types{
+          list-style-type: square;
+        font-family: Arial, Helvetica, sans-serif;
+      font-size: 1em;
+      font-weight: 1000px;
+      letter-spacing:1px;
+      padding:1px;
+   
+      
+        }
+.your-centered-div {
+    margin: 10px;
+
+    }
+    iframe{
+      width:380px;
+      height:250px;
+      padding: 10px;
+    }
+
+
+}
+footer {
+  margin-top: 150px;
+  text-align: center;
+  padding: 2px;
+  background-color: rgb(235, 235, 235);
+  color: rgb(0, 0, 0);
+  font-size: 10px;
+ 
+}
+#disclaimer{
+
+  margin-top: 70px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
