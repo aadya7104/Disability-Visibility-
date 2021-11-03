@@ -781,8 +781,7 @@ footer {
   text-align: center;
 }
   .your-centered-div {
-    margin: 50px;
-    margin-left: 300px;
+   text-align: center;
     }
     iframe{
       width:700px;
@@ -790,7 +789,7 @@ footer {
     }
 @media screen and (max-width: 480px) {
 .your-centered-div {
-    margin-left:  4.5%;
+    text-align: center;
 
     }
     iframe{
