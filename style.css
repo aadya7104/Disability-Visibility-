@@ -761,7 +761,7 @@ footer {
   
 }
 .btn a{
-  font-size: 10px;
+  font-size: 6px;
  color: black;
  text-decoration-line: none;
 }
@@ -931,16 +931,24 @@ input:checked + .slide-container .nav label { display: block; }
 
 
   .carousel .carousel-item {
-    height: 500px; }
+    height: 350px; }
     .carousel .carousel-item img {
       position: absolute;
       top: 0;
       left: 0;
-      min-height: 500px; }
+      min-height: 350px; }
 
 #carouselButton {
   right: 0px;
   position: absolute;
   top: 0px;
   z-index: 1; }
-
+@media screen and(max-width: 480px) {
+  .carousel .carousel-item {
+    height: 200px; }
+    .carousel .carousel-item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 200px; }
+}
