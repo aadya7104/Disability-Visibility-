@@ -8,25 +8,20 @@
   background-repeat: no-repeat;
   background-size: cover;
   height:100%;*/
-      background-color: rgb(222, 237, 248);
+      background-color: rgb(255, 255, 255);
          }
-#navbar {
-  list-style-type: none;
-  padding: 1.5em;
-  background-color: black;
-  overflow: hidden;
+.navbar-dark {
+  background-color: #000000; 
+}
+.nav-item{
+   color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+font-family: monospace;
+margin-left: 20px;
 }
 
-#navbar-item {
-  display: inline;
-  margin-left: 40px;
- }
-#navbar-item1 {
-  align-content: left;
-  margin:0;
-  margin-right:15px;
-  padding:0px;
- }
 #navbar-item a {    /* Style hyperlink text in nav bar */
   color: white;
   text-decoration: none;
@@ -98,28 +93,8 @@
   overflow: hidden;
 }
 
-#navbar-item {
-  display: inline;
-  margin-left:20px;
- }
 
-#navbar-item a {    /* Style hyperlink text in nav bar */
-  color: white;
-  text-decoration: none;
-  padding: 0.2em;
-  font-size: 1em;
-  font-family:'Playfair Display SC', serif;
-  text-align: center;
-  margin-left:0px;
- 
-}
-.nav{
-  text-align: center;
-}
 
-#navbar-item a:hover {
-  background-color: gray;
-}
 
 h2{
       font-family: 'Bebas Neue', cursive;
@@ -172,11 +147,11 @@ h2{
 }
 footer {
   margin-top: 150px;
-  text-align: center;
+  text-align: left;
   padding: 2px;
   background-color: rgb(235, 235, 235);
   color: rgb(0, 0, 0);
-  font-size: 10px;
+  font-size: 13px;
  
 }
 #disclaimer{
@@ -185,4 +160,46 @@ footer {
   margin-bottom: 50px;
   margin-left: 50px;
   margin-right: 50px;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  
 }
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  color: #3B5998;
+  margin-right: 30px;
+}
+/* Twitter */
+.fa-twitter {
+  color: #55ACEE;
+  margin-right:30px;
+}
+.fa-instagram{
+  color:rgb(240, 15, 128);
+  margin-right:30px;
+}
+.fa-linkedin{
+  color:#3B5998;
+  margin-right:30px;
+}
+
+
+.icons{
+  text-align: center;
+  font-size: 20px;
+}
+.btn {
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+  text-align: center;
+}
+.btn a{
+  font-size: 10px;
+ color: black;
+ text-decoration-line: none;
+}
+
+.btn:hover {background-color: #e7e7e7;}

@@ -51,3 +51,21 @@ function displayFact()
     count = 0;
   }
 }
+// Photos
+// carousel
+$(document).ready(function(){
+  var intervalx=5000;
+  $("#mycarousel").carousel( { interval: intervalx } );
+  $("#carouselButton").click(function(){
+      if($('#carouselButton').children('span').hasClass('fa-pause')){
+          $("#mycarousel").carousel('pause');
+          $('#carouselButton').children('span').removeClass('fa-pause')
+          $('#carouselButton').children('span').addClass('fa-play')
+      }
+      else{
+          $("#mycarousel").carousel('cycle');
+          $('#carouselButton').children('span').removeClass('fa-play')
+          $('#carouselButton').children('span').addClass('fa-pause')
+      }
+  });
+});
