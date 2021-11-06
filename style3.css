@@ -78,12 +78,11 @@ margin-left: 20px;
       
         }
 .your-centered-div {
-    margin: 50px;
-    margin-left: 300px;
+   text-align: center;
     }
     iframe{
       width:700px;
-      height:445px;
+      height:400px;
     }
 @media screen and (max-width:450px) {
    #navbar {
@@ -220,4 +219,10 @@ footer {
     margin-right: 36.5%;
   }
   
+}
+#google_translate_element{
+  text-align: center;
+}
+body > .skiptranslate {
+    display: none;
 }
