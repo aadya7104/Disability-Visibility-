@@ -24,6 +24,7 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
 // Myth buster
 
 
@@ -36,7 +37,7 @@ var mythList =["MYTH: Disability is a consequence of deeds of previous lives (ka
 
 var fact = document.getElementById("fact");
 var myth=document.getElementById("myth")
-var btn= document.getElementById("btn");
+var btn= document.getElementById("btn01");
 var count = 0;
 
 btn.addEventListener("click", displayFact);
