@@ -239,3 +239,12 @@ body > .skiptranslate {
      width:25em;
   }
 }
+Table { background-color:rgb(255, 255, 255);
+border-collapse:collapse;
+margin: 10px; }
+Table th { background-color:rgb(2, 17, 97);color:white;
+width:10%;; height:10%;font-family:'Courier New', Courier, monospace}
+Table td, Table th { padding:2px;border:2px solid #000; width:5%; height:5% }
+.table table-striped{
+  margin:20px;
+}
